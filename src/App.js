@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1 className="App-header">Bootcamp 2020</h1>
+      <h1 className="App-header">BOOTCAMP 2020</h1>
       <h1 className="App">Assignment#2: React-App-Deployment</h1>
       <h2>Hello World</h2>
       <p>Website deployed using GitHub Actions.</p>
