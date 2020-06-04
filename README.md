@@ -1,3 +1,52 @@
+#Bootcamp-2020
+##Assignment#2 : React App Development Environment Setup
+
+1. Create React Project using Create React App
+    
+    https://create-react-app.dev/docs/getting-started
+
+    https://github.com/facebook/create-react-app
+
+    Use the following command:
+
+      npx create-react-app react-base-app
+
+2. Open created directory/project in VS Code
+
+3. Give following commands to view app in browser:
+
+    cd react-base-app
+
+    npm start
+
+4. Now add the project we just created to GitHub using the command line:
+
+    https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+5. Generate Surge token by the following command.
+
+    surge token
+
+6. Save the surge token in the repo's GitHubs secrets.
+
+7. Create GitHub Actions Workflow of deploying the React App to Surg in root repo in .github/workflow directory.
+
+8. Make small change in App.js, commit it and push it again to github.com.
+
+9. Check the action tab to GitHub website and see if the action is executed.
+
+10. open website in browser.
+
+    http://bootcamp2020-react-app-deployment.surge.sh/
+
+
+//********************************************
+
+The Following documentation is auto generated
+
+//********************************************
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
